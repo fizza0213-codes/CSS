@@ -1,0 +1,15 @@
+#paragraph{
+   color: darkgreen;
+}
+#heading{
+    color: black;
+    text-align: center;
+    background-color: cadetblue;
+
+}
+#body{
+    background-color: darkgray;
+    /* border-color: brown;
+    border-width: 10px; */
+
+}
