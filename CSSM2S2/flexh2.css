@@ -1,0 +1,77 @@
+.header{
+    background-color: darkolivegreen;
+    color: white;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+.container1{
+    text-align: center;
+    background-color: gray;
+    margin:20 px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 20px;
+
+}
+.container1 button{
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+.card1{
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+.container2{
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 40px;
+   
+}
+.card2{
+    background-color: aliceblue;
+    text-align: center;
+     border: 1px solid grey;
+     border-radius: 5px;
+     padding: 10px;
+}
+.container3{
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 40px;
+}
+.card3{
+    
+     text-align: center;
+     border: 1px solid grey;
+     border-radius: 5px;
+     padding: 10px;
+     background-color: beige;
+}
+footer{
+    background-color:darkolivegreen;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+text-decoration: none;
+color: white;
+margin: 20px;
+}
