@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    
+}
+.main-container {
+    width: 415px;
+    background-color: whitesmoke;
+    margin: 40px auto;
+    padding: 28px 36px 24px;
+}
+.form-box {
+    background-color: white;
+    padding: 28px 22px 38px;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: black;
+}
+.input-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+.input-box input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid white;
+    padding: 10px 10px 10px 42px;
+    font-size: 14px;
+   
+}
+.icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    color: gray;
+   
+}
+.name-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+.small-input {
+    position: relative;
+    width: 50%;
+}
+.small-input input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid whitesmoke;
+    padding: 10px 8px 10px 38px;
+    font-size: 13px;
+    outline: none;
+}
+.gender {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+.gender label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+select {
+    width: 100%;
+    height: 42px;
+    border: 1px solid white;
+    padding: 0 10px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    background-color: white;
+}
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: gray;
+}
+.check input {
+    width: 14px;
+    height: 14px;
+}
+button {
+    width: 50%;
+    height: 42px;
+    background-color: yellow;
+    color: black;
+    margin-top: 8px;
+}
+.footer {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 18px;
+    color: grey;
+}
