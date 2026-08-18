@@ -1,0 +1,521 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #181818;
+
+    font-family: Arial, sans-serif;
+
+    color: #333;
+}
+.main-container {
+    width: 92%;
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    background-color: white;
+}
+
+.navbar {
+    height: 27px;
+
+    background-color: #263d55;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 5%;
+}
+.logo {
+    color: white;
+
+    font-size: 9px;
+
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+.nav-links a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 7px;
+}
+.nav-links a:hover {
+    color: #ff5b52;
+}
+
+.hero {
+    height: 85px;
+
+    background-image:
+        linear-gradient(
+            gray,
+            gray
+        ),
+        url("https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+.hero-content {
+    color: white;
+
+    width: 80%;
+}
+
+.hero-content h1 {
+    font-size: 17px;
+
+    margin-bottom: 6px;
+}
+.hero-content p {
+    font-size: 7px;
+
+    margin-bottom: 7px;
+}
+.hero-content button {
+    background-color: #f0544c;
+        color: white;
+
+    border: none;
+
+    padding: 5px 14px;
+
+    border-radius: 2px;
+
+    font-size: 7px;
+}
+
+
+.hero-content button:hover {
+    background-color: #d93d35;
+}
+.features {
+    padding: 18px 9% 12px;
+
+    background-color: white;
+}
+.features h2,
+.pricing h2,
+.contact h2 {
+    text-align: center;
+
+    font-size: 11px;
+
+    margin-bottom: 12px;
+}
+
+.feature-container {
+    display: flex;
+
+    justify-content: center;
+
+    width: 100%;
+}
+.feature-card {
+    flex: 1;
+
+    min-height: 47px;
+
+    background-color: #edf2f3;
+
+    padding: 9px;
+
+    text-align: center;
+
+    border-right: 1px solid white;
+}
+.feature-card:last-child {
+    border-right: none;
+}
+.feature-card h3 {
+    font-size: 8px;
+
+    margin-bottom: 6px;
+}
+.feature-card p {
+    font-size: 6px;
+
+    line-height: 1.4;
+
+    color: #666;
+}
+
+.pricing {
+    background-color: #edf2f3;
+
+    padding: 18px 10% 12px;
+}
+
+
+.pricing-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 0;
+}
+
+
+.price-card {
+    background-color: white;
+
+    width: 30%;
+
+    min-height: 60px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-right: 1px solid #ddd;
+}
+
+
+.price-card:last-child {
+    border-right: none;
+}
+
+
+.price-card h3 {
+    font-size: 8px;
+
+    margin-bottom: 6px;
+}
+
+
+.price {
+    color: #e64b43;
+
+    font-size: 7px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+
+.price-card button {
+    background-color: #263d55;
+
+    color: white;
+
+    border: none;
+
+    padding: 3px 9px;
+
+    font-size: 6px;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+
+.price-card button:hover {
+    background-color: #172b3e;
+}
+.contact {
+    background-color: white;
+
+    padding: 18px 20% 12px;
+}
+
+
+.contact h2 {
+    margin-bottom: 12px;
+}
+
+form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+form label {
+    font-size: 6px;
+
+    margin-bottom: 3px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+
+    border: 1px solid #eeeeee;
+
+    padding: 5px;
+
+    margin-bottom: 7px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 6px;
+
+    outline: none;
+}
+form input {
+    height: 14px;
+}
+
+form textarea {
+    height: 35px;
+    resize: none;
+}
+
+
+form input:focus,
+form textarea:focus {
+    border-color: #f0544c;
+}
+form button {
+    width: 50px;
+    background-color: #f0544c;
+    color: white;
+    border: none;
+    padding: 5px 3px;
+
+    font-size: 5px;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+footer {
+    background-color: #263d55;
+
+    height: 25px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+}
+
+
+footer p {
+    font-size: 6px;
+}
+@media (max-width: 768px) {
+
+    .main-container {
+        width: 95%;
+    }
+
+
+    .nav-links {
+        gap: 12px;
+    }
+
+
+    .hero-content {
+        width: 90%;
+    }
+
+
+    .hero-content h1 {
+        font-size: 15px;
+    }
+
+
+    .features {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    .pricing {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    .contact {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .main-container {
+        width: 100%;
+    }
+
+    .navbar {
+        height: auto;
+
+        padding: 9px 5%;
+
+        flex-direction: column;
+
+        gap: 7px;
+    }
+
+
+    .logo {
+        font-size: 10px;
+    }
+
+
+    .nav-links {
+        gap: 15px;
+    }
+
+
+    .nav-links a {
+        font-size: 8px;
+    }
+
+    .hero {
+        height: 150px;
+    }
+
+
+    .hero-content {
+        width: 90%;
+    }
+
+
+    .hero-content h1 {
+        font-size: 17px;
+
+        line-height: 1.2;
+    }
+
+
+    .hero-content p {
+        font-size: 8px;
+
+        line-height: 1.4;
+    }
+
+    .features {
+        padding: 25px 8%;
+    }
+
+
+    .feature-container {
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+
+    .feature-card {
+        width: 100%;
+
+        border-right: none;
+
+        border-bottom: 1px solid white;
+    }
+
+
+    .feature-card:last-child {
+        border-bottom: none;
+    }
+
+    .pricing {
+        padding: 25px 8%;
+    }
+
+
+    .pricing-container {
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 10px;
+    }
+
+
+    .price-card {
+        width: 90%;
+
+        max-width: 280px;
+
+        border-right: none;
+    }
+
+
+    
+    .contact {
+        padding: 25px 10%;
+    }
+
+    footer {
+        height: 30px;
+
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .hero-content h1 {
+        font-size: 15px;
+    }
+
+
+    .hero-content p {
+        font-size: 7px;
+    }
+
+
+    .nav-links {
+        gap: 10px;
+    }
+
+
+    .nav-links a {
+        font-size: 7px;
+    }
+     .fa-solid {
+        display: block;
+    }
+
+
+
+    .price-card {
+        width: 100%;
+    }
+
+
+    .contact {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+}
+@media (min-width: 768px) {
+ .fa-solid {
+        display: none;
+    }
+}
